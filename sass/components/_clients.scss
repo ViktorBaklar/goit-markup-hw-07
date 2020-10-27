@@ -1,0 +1,32 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 90px;
+  width: 170px;
+  & svg {
+    fill: $social-link-color;
+  }
+  &:hover,
+  &:focus {
+    border-color: $active-color;
+  }
+  &:hover svg,
+  &:focus svg {
+    fill: $active-color;
+  }
+}

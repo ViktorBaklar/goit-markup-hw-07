@@ -1,0 +1,38 @@
+.contacts-flexx {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact {
+  margin-right: 30px;
+  display: flex;
+}
+
+.header-contact:last-child {
+  margin-right: 0;
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: $secondary-text-color;
+  display: flex;
+  align-items: center;
+}
+
+.contact-link svg {
+  margin-right: 10px;
+  fill: currentColor;
+  fill: $secondary-text-color;
+}
+
+.contact-link:hover svg {
+  fill: $active-color;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: $active-color;
+}
